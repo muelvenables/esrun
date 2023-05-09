@@ -1,6 +1,6 @@
 {
-	"name": "@digitak/esrun",
-	"version": "3.2.25",
+	"name": "@genables/esrun",
+	"version": "3.2.26",
 	"type": "module",
 	"description": "Execute directly your Typescript files using Esbuild",
 	"main": "./index.js",
@@ -29,9 +29,8 @@
 	"engines": {
 		"node": ">=14.0"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/digital-loukoum/esrun.git"
+	"publishConfig": {
+		"registry": "https://pkgs.dev.azure.com/pointsbet/_packaging/PointsBet/npm/registry/"
 	},
 	"keywords": [
 		"esbuild",
